@@ -40,6 +40,11 @@
         >
           <Icon name="ph:user-thin" size="17" />Account
           <Icon name="mdi:chevron-down" size="15" class="ml-5" />
+          <div
+            v-if="isAccountMenue"
+            id="AccountMenu"
+            class="absolute bg-white w-[220px] text-[#333333] z-40 top-[38px] -left-[100px] border-x border-b"
+          ></div>
         </li>
       </ul>
     </div>
